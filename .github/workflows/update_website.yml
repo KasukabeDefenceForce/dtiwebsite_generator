@@ -21,7 +21,7 @@ jobs:
       - name: Clone group-data
         uses: actions/checkout@v4
         with:
-          repository: KasukabeDefenceForce/group-data
+          repository: deepthought-initiative/group-data
           path: group-data
           token: ${{ secrets.SITE_TEST}}
 
