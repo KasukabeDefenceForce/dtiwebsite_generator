@@ -23,14 +23,14 @@ jobs:
         with:
           repository: deepthought-initiative/group-data
           path: group-data
-          token: ${{ secrets.SITE_TARDIS}}
+          token: ${{ secrets.SITE_TEST}}
 
       - name: Clone deepthought-initiative.github.io
         uses: actions/checkout@v4
         with:
           repository: deepthought-initiative/deepthought-initiative.github.io
           path: deepthought-initiative.github.io
-          token: ${{ secrets.SITE_TARDIS }}
+          token: ${{ secrets.SITE_TEST }}
 
       - name: Set up Python3
         uses: actions/setup-python@v4
